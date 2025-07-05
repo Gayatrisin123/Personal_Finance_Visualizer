@@ -1,7 +1,6 @@
 # Personal Finance Visualizer 💸
 
-Smart Logistics Manager is a professional MERN-stack web application crafted to enhance logistics operations. Equipped with a powerful admin dashboard, it offers advanced analytics, real-time driver tracking, route optimization, fleet management, predictive metrics, and delivery performance monitoring. This comprehensive solution ensures seamless, efficient, and data-driven management for achieving operational excellence and superior delivery outcomes.🚀
-
+Personal Finance Visualizer is a full-stack web application designed to help users effortlessly track, manage, and visualize their personal expenses. Built using Next.js App Router, MongoDB, Tailwind CSS, and shadcn/ui, the app allows users to add transactions, view them in a structured list, and analyze monthly spending patterns through dynamic charts powered by Recharts. The interface is clean, responsive, and user-friendly, making it ideal for individuals looking to gain better control over their finances.
 
 ## Features 🚀
 
