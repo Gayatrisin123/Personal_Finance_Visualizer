@@ -3,22 +3,34 @@ import { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
+type Transaction = {
+  amount: number;
+  date: string;
+};
+
+type MonthlyData = {
+  month: string;
+  total: number;
+};
+
 export default function MonthlyChart() {
-  const [chartData, setChartData] = useState<any[]>([]);
+  const [chartData, setChartData] = useState<MonthlyData[]>([]);
 
   useEffect(() => {
     fetch("/api/transactions")
       .then((res) => res.json())
-      .then((data) => {
+      .then((data: Transaction[]) => {
         const monthly: Record<string, number> = {};
-        data.forEach((t: any) => {
+        data.forEach((t: Transaction) => {
           const month = new Date(t.date).toLocaleString("default", {
             month: "short",
             year: "numeric",
           });
           monthly[month] = (monthly[month] || 0) + t.amount;
         });
-        setChartData(Object.entries(monthly).map(([month, total]) => ({ month, total })));
+        setChartData(
+          Object.entries(monthly).map(([month, total]) => ({ month, total }))
+        );
       });
   }, []);
 
