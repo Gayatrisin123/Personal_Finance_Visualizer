@@ -4,12 +4,11 @@ Personal Finance Visualizer is a full-stack web application designed to help use
 
 ## Features 🚀
 
-- **Comprehensive Analytics:** Gain insights into performance metrics and trends with detailed visualizations.
-- **Route Optimization:** Minimize delivery times and fuel costs with intelligent route planning.
-- **Real-Time Driver Tracking:** Monitor your fleet’s location and status in real-time for better coordination.
-- **Predictive Metrics:** Leverage advanced analytics to predict delivery outcomes and improve planning.
-- **Delivery Performance Monitoring:** Track and measure delivery success rates to ensure top-notch service quality.
-- **User-Friendly Admin Dashboard:** A sleek, intuitive interface for managing all logistics operations seamlessly.
+- 📥 Add, edit, and delete transactions
+- 📃 View transaction history
+- 📊 Monthly expense chart using Recharts
+- 🎨 Beautiful responsive UI with shadcn/ui & Tailwind CSS
+- ☁️ Fully integrated with MongoDB (Atlas)
 
 ## Demo 🖥️
 You can visit the live site here - (https://smart-logistic-manager.vercel.app/)
