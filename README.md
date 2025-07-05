@@ -21,15 +21,16 @@ You can visit the live site here - (#)
 - **Hosting:** Vercel 
 
 ## Installation 🛠️
-- First Read this [License](https://github.com/Gayatrisin123/Smart-Logistic-Manager/blob/main/LICENSE) & their terms then proceed.
-- Star the [Repository](https://github.com/Gayatrisin123/Smart-Logistic-Manager)
+
+- Star the [Repository](https://github.com/Gayatrisin123/Personal_Finance_Visualizer)
 - Clone the repository:
 ```bash
-  git clone https://github.com/Gayatrisin123/Smart-Logistic-Manager.git
+  git clone https://github.com/Gayatrisin123/Personal_Finance_Visualizer.git
+  cd personal-finance-visualizer
 ```
 - Install the necessary dependencies:
 ```bash
-  pnpm install
+  npm install
 ```
 
 ## Usage 🖥️
