@@ -11,7 +11,7 @@ Personal Finance Visualizer is a full-stack web application designed to help use
 - ☁️ Fully integrated with MongoDB (Atlas)
 
 ## Demo 🖥️
-You can visit the live site here - (https://smart-logistic-manager.vercel.app/)
+You can visit the live site here - (#)
 
 ## Technologies Used 👨🏻‍💻
 - **Typescript** – A strongly-typed superset of JavaScript that enhances the development of fast and scalable web applications.
