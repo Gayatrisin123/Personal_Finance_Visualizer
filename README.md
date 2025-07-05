@@ -14,10 +14,11 @@ Personal Finance Visualizer is a full-stack web application designed to help use
 You can visit the live site here - (#)
 
 ## Technologies Used 👨🏻‍💻
-- **Typescript** – A strongly-typed superset of JavaScript that enhances the development of fast and scalable web applications.
-- **Tailwind CSS** – A utility-first CSS framework for efficient and responsive styling.
-- **Docker** – Containerization for seamless deployment and scalability.
-- **ShadCN** – Used for beautifully designed, responsive components.
+- **Frontend:** Next.js 14 (App Router), React, TypeScript, Tailwind CSS
+- **UI Library:** shadcn/ui (Button, Card, Input components)
+- **Charts:** Recharts
+- **Database:** MongoDB Atlas
+- **Hosting:** Vercel 
 
 ## Installation 🛠️
 - First Read this [License](https://github.com/Gayatrisin123/Smart-Logistic-Manager/blob/main/LICENSE) & their terms then proceed.
